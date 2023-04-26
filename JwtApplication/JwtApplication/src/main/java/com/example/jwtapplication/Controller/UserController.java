@@ -13,6 +13,6 @@ public class UserController {
 
     @GetMapping
     public ResponseEntity<String> welcome(){
-        return ResponseEntity.ok("Hey Man..Finally Hahh");
+        return index.html;
     }
 }
